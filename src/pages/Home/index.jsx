@@ -31,6 +31,10 @@ export default function Home() {
                     <IconLink size={15} />
                     <Anchor size='sm' style={{ color: '#2a2a2a', fontStyle: 'italic' }} href="https://github.com/notblessy" target="_blank">github.com/notblessy</Anchor>
                   </Group>
+                  <Group style={{ padding: '0 10px' }}>
+                    <IconLink size={15} />
+                    <Anchor size='sm' style={{ color: '#2a2a2a', fontStyle: 'italic' }} href="https://medium.com/@frederich" target="_blank">medium.com/@frederich</Anchor>
+                  </Group>
                 </Box>
                 <Divider mt="xl" my='sm' label="EDUCATION" labelPosition="left" />
                 <Box>
