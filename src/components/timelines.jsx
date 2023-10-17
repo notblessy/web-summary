@@ -1,7 +1,7 @@
 export const timelines = [
   {
     id: "dealls",
-    title: "Backend Engineeer",
+    title: "Backend Engineer",
     company: "Dealls!",
     when: 'Sep 2023 - Now',
     icon: 'dealls.png',
@@ -84,7 +84,7 @@ export const timelines = [
   },
   {
     id: "takalab",
-    title: "Backend Developers",
+    title: "Backend Developer",
     company: "Takalab",
     when: 'Aug 2021 - Aug 2022',
     icon: 'taka.jpeg',
@@ -109,7 +109,7 @@ export const timelines = [
   },
   {
     id: "freelance",
-    title: "Backend Developers",
+    title: "Backend Developer",
     company: "Self Employee",
     when: 'May 2020 - Aug 2021',
     icon: 'self.jpeg',
