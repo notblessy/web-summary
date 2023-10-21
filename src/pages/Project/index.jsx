@@ -14,7 +14,7 @@ export default function Project() {
               projects.map((p) => {
 
                 return (
-                  <Grid.Col key={p.id} span={4}>
+                  <Grid.Col key={p.id} span={{ base: 12, xs: 12, sm: 12, md: 4, lg: 4 }}>
                     <CustomCard
                       name={p.name}
                       label={p.label}

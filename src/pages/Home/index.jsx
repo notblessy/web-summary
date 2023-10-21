@@ -11,7 +11,7 @@ export default function Home() {
       <Box style={{ position: 'relative', height: '100%', margin: '0 auto', bottom: 200 }}>
         <Container style={{ height: '100%' }}>
           <Grid>
-            <Grid.Col span={5}>
+            <Grid.Col span={{ base: 12, xs: 12, sm: 12, md: 5, lg: 5 }}>
               <Box style={{ background: "#FFF", padding: '20px 10px', margin: '5px', boxShadow: "0px 0px 2px #aaaaaa" }}>
                 <Avatar
                   style={{ margin: '0 auto' }}
@@ -23,15 +23,15 @@ export default function Home() {
                 <Text size='sm' c="dimmed" style={{ textAlign: 'center' }}>Backend Engineer</Text>
                 <Divider mt="xl" my='sm' label="CONTACT" labelPosition="left" />
                 <Box>
-                  <Group style={{ padding: '10px' }}>
+                  <Group style={{ padding: '5px 10px' }}>
                     <IconMail size={15} />
                     <Text size='sm' style={{ color: '#2a2a2a' }}>frederichblessy@gmail.com</Text>
                   </Group>
-                  <Group style={{ padding: '0 10px' }}>
+                  <Group style={{ padding: '5px 10px' }}>
                     <IconLink size={15} />
                     <Anchor size='sm' style={{ color: '#2a2a2a', fontStyle: 'italic' }} href="https://github.com/notblessy" target="_blank">github.com/notblessy</Anchor>
                   </Group>
-                  <Group style={{ padding: '0 10px' }}>
+                  <Group style={{ padding: '5px 10px' }}>
                     <IconLink size={15} />
                     <Anchor size='sm' style={{ color: '#2a2a2a', fontStyle: 'italic' }} href="https://medium.com/@frederich" target="_blank">medium.com/@frederich</Anchor>
                   </Group>
@@ -56,7 +56,7 @@ export default function Home() {
                 </Box>
               </Box>
             </Grid.Col>
-            <Grid.Col span={7}>
+            <Grid.Col span={{ base: 12, xs: 12, sm: 12, md: 7, lg: 7 }}>
               <Box mb={40} style={{ background: "#FFF", padding: '20px 10px', margin: '5px', boxShadow: "0px 0px 2px #aaaaaa" }}>
                 <Box px={20} mb={20}>
                   <Title order={5} mb={10}>Summary</Title>
@@ -75,7 +75,7 @@ export default function Home() {
           </Grid>
           <CustomFooter />
         </Container>
-      </Box>
+      </Box >
     </>
   );
 }
