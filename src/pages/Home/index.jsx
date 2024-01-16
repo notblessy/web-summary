@@ -16,7 +16,7 @@ export default function Home() {
                 <Avatar
                   style={{ margin: '0 auto' }}
                   size={150}
-                  src="https://media.licdn.com/dms/image/C5603AQFVzF0z8IokQA/profile-displayphoto-shrink_800_800/0/1604042792376?e=1702512000&v=beta&t=L5PHSRyWkCSP2G_KzS5QMwsFbs-TOXzYwSYxI_Tj5mA"
+                  src="profile.jpeg"
                   alt="it's me"
                 />
                 <Title order={5} style={{ textAlign: 'center', margin: '10px 0 0' }}>I Komang Frederich Blessy</Title>
