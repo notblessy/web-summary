@@ -23,7 +23,6 @@ const CustomHeader = () => {
         </Container>
       </Box>
       <Image
-        radius="md"
         h={400}
         src="bg.png"
       />
