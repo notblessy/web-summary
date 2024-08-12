@@ -9,6 +9,15 @@ export const projects = [
     link: "https://apps.apple.com/id/app/bagirata/id6572284039",
   },
   {
+    id: "kantorku",
+    name: "Kantorku",
+    label: "kantorku",
+    description:
+      "Kantorku is an HRIS that helps company needs. I Develop & maintain the Employer Dashboard of Kantorku especially for the HR department to manage their employee's payroll & resignation.",
+    picture: "/kn.png",
+    link: "https://kantorku.id",
+  },
+  {
     id: "dealls",
     name: "Dealls",
     label: "Dealls",
