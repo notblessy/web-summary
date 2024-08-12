@@ -3,7 +3,8 @@ export const projects = [
     id: "bagirata",
     name: "Bagirata",
     label: "bagirata",
-    description: "Personal iOS APP that help you split bills with friends",
+    description:
+      "Personal Indie iOS APP that help you split bills with friends. It's a simple and easy to use app. Developed with swift as the main language. Scan and recognize text from image.",
     picture: "/bag.png",
     link: "https://apps.apple.com/id/app/bagirata/id6572284039",
   },
