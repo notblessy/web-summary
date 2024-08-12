@@ -11,7 +11,7 @@ export const projects = [
   {
     id: "kantorku",
     name: "Kantorku",
-    label: "kantorku",
+    label: "Dealls",
     description:
       "Kantorku is an HRIS that helps company needs. I Develop & maintain the Employer Dashboard of Kantorku especially for the HR department to manage their employee's payroll & resignation.",
     picture: "/kn.png",
